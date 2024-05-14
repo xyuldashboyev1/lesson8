@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding: 0px 200px;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Rectangle\ 31.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+nav h2{
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav button{
+    width: 180px;
+    height: 70px;
+    padding: 20px 35px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+
+}
+nav li a{
+    padding-right: 40px;
+    color: white;
+}
+.header-desc{
+    width: 100%;
+    height: 154px;
+    justify-content: start;
+    flex-direction: column;
+    text-align: start;
+    padding: 200px 200px;
+    display: flex;
+    gap: 30px;
+
+}
+.header-desc h2{
+    width: 60%;
+    font-size: 65px;
+    color: white;
+    text-align: start;
+}
+.header-desc p{
+    width: 60%;
+    font-size: 30px;
+    color: white;
+}
+.header-desc button{
+    width: 180px;
+    height: 70px;
+    padding: 20px 35px;
+    border: none;
+    background-color: crimson;
+    color: white;
+
+}
+
+
+
+@font-face {
+    font-family: "Gelasio";
+    src: url(../gelasio/static/Gelasio-MediumItalic.ttf);
+}
+ h1{
+    font-family: Gelasio;
+    font-size: 50px;
+}
+.box1 h3{
+    font-size: 35px;
+}
+
+.container2{
+    height: 100vh;
+    width: 100%;
+   text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    justify-content: center;
+    padding: 0px 200px;
+}
+
+.box-items{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+}
+img{
+    width: 100%;
+}
+.box1{
+    width: 30%;
+    height: 400px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.box2{
+    width: 290px;
+    height: 290px;
+}
+.box-items1{
+    width: 100%;
+    height: 100vh;
+    display: flex; ;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.container2 .word{
+    font-size: 25px;
+}
+
+
+.from-blog{
+    width: 100%;
+    height: 100vh;
+}
+
+.news{
+    width: 50%;
+    height: 13%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.Park{
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    gap: 40px;
+}
+.Park p{
+    font-family: sans-serif;
+}
+
+.national{
+    height: 100%;
+    width: 47%;
+    font-size: 26px;
+}
+
+.national h3{
+    margin: 20px 0px 20px 0px;
+}
+
+.heroshima{
+    height: 100%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+}
+
+.pease{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.heroshima  .img{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.heroshima .info{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.heroshima p{
+    margin: 10px 0px 10px 0px ;
+}
+
+
+
+footer{
+    height: 240px;
+    width: 100%;
+    background-color: rgb(164, 159, 159);
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+footer h5{
+    padding: 10px;
+}
+
+footer h4{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.button-end button{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    background-color: red;
+    color: rgb(28, 1, 1);
+    border: none;
+    border-radius: 10px;
+}
+
+
+.button-end input{
+    height: 60px;
+    width: 180px;
+}
+.button-end h2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
